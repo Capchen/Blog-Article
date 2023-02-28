@@ -107,7 +107,7 @@ npm run build:playground
 
 ```
 
-1. page.html的使用：可以拷贝很多份，然后将dsl.js插入进去来使用
+1. page.html的使用：可以拷贝很多份，然后将dsl.js插入进去来使用(window.magicDSL=[])  
 2. playground.html的使用： 示例项目的runtime
 
 #### 第二步： 将第一步的构建产物进行归档编号，存为版本
