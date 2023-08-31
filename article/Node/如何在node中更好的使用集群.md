@@ -1,5 +1,7 @@
 # 集群模式初始
 
+[原文链接](https://www.digitalocean.com/community/tutorials/how-to-scale-node-js-applications-with-clustering#prerequisites)
+
 ## 介绍
 
 当你在一个多核CPU的系统上运行一个node程序，默认情况下会以单核的模式去创建一个进程。因为Node.js是以单线程的方式执行javascript代码，所以应用的所有请求都必须由单核上的线程去处理。如果应用程序有 CPU 密集型任务，操作系统必须安排它们共享单个 CPU，直到完成。如果单个进程收到太多请求，可能会导致该进程不堪重负，从而导致性能下降。如果进程崩溃了，用户也不能继续访问你的应用了。
