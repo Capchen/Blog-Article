@@ -1,6 +1,7 @@
-# 集群模式初始
+# 如何通过集群扩展 Node.js 应用程序
 
-[原文链接](https://www.digitalocean.com/community/tutorials/how-to-scale-node-js-applications-with-clustering#prerequisites)
+- [原文链接](https://www.digitalocean.com/community/tutorials/how-to-scale-node-js-applications-with-clustering#prerequisites)  
+- [演示代码](https://github.com/Capchen/cluster_demo)
 
 ## 介绍
 
